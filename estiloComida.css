@@ -1,0 +1,197 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+body{
+     background-color: peachpuff;
+     background-size: cover;
+     background-attachment: fixed;
+    
+ }
+
+ .logo{
+    margin-left: 30px;
+ }
+
+.flecha{
+   margin-left: 950px;
+   animation:ease-in flotante 5s;
+   animation-iteration-count: infinite;
+}
+
+ .primera img{
+    border-radius: 5px;
+    
+ }
+ .primera img:hover{
+    border: 2px solid orange;
+ }
+
+ .borde:hover{
+    border: 4px solid orange;
+ }
+
+ .borde1:hover{
+    border: 4px solid green;
+ }
+
+ .contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contenido-header{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido-comida{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen-carne1{
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 550px;
+    animation:ease-in animat 1s;
+    border-radius: 5px;
+}
+
+.imagen-carne2{
+    margin-top: 350px;
+    margin-left: 40px;
+    width: 550px;
+    animation:ease-in animat 1s;
+    border-radius: 5px;
+}
+
+.imagen-carne3{
+    margin-top: 300px;
+    margin-left: 40px;
+    width: 550px;
+    animation:ease-in animat 1s;
+    border-radius: 5px;
+}
+
+.imagen-verdura1{
+    margin-top: 170px;
+    margin-left: 40px;
+    width: 550px;
+    animation:ease-in animat 1s;
+    border-radius: 5px;
+}
+
+.imagen-verdura2{
+    margin-top: 200px;
+    margin-left: 40px;
+    width: 550px;
+    animation:ease-in animat 1s;
+    border-radius: 5px;
+}
+
+.imagen-verdura3{
+    margin-top: 200px;
+    margin-left: 40px;
+    width: 550px;
+    animation:ease-in animat 1s;
+    border-radius: 5px;
+}
+
+.imagen-legumbres1{
+    margin-top: 320px;
+    margin-left: 40px;
+    width: 550px;
+    animation:ease-in animat 1s;
+    border-radius: 5px;
+}
+
+.imagen-legumbres2{
+    margin-top: 90px;
+    margin-left: 40px;
+    width: 550px;
+    animation:ease-in animat 1s;
+    border-radius: 5px;
+}
+
+.imagen-legumbres3{
+    margin-top: 330px;
+    margin-left: 40px;
+    width: 550px;
+    animation:ease-in animat 1s;
+    border-radius: 5px;
+}
+
+.imagen-frutas1{
+    margin-top: 180px;
+    margin-left: 40px;
+    width: 550px;
+    animation:ease-in animat 1s;
+    border-radius: 5px;
+}
+
+.contenido-header>img{
+    margin-left: 40px;
+    width: 550px;
+    animation:ease-in animat 1s;
+    border-radius: 5px;
+}
+
+
+
+@keyframes animat{
+    0%{
+        transform: scale(0);
+    }100%{
+        transform: scale(1);
+    }
+}
+
+
+@keyframes flotante{
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.textos-header{
+    margin: 0 0 0 10px;
+}
+
+.contenido-header p{
+    font-weight: 100;
+    margin-top: 14px;
+    color: #5d6678;
+}
+
+
+.contenido-header a{
+    margin: 28px 0 0 0;
+    width: 130px;
+    display: inline-block;
+    background: orange;
+    text-align: center;
+    color: #fff;
+    padding: 12px 0;
+    text-decoration: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px rgba(224, 158, 26, 0.46);
+}
+
+
+input:invalid {
+    border: 2px dashed red;
+  }
+
+  input:valid {
+    border: 2px solid green;
+  }
