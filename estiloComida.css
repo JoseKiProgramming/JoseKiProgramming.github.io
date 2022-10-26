@@ -1,10 +1,10 @@
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    color: white;
 }
 
 body{
-     background-color: rgb(28, 240, 99);
+     background-color: #333;
      background-size: cover;
      background-attachment: fixed;
     
@@ -125,7 +125,7 @@ body{
 }
 
 .imagen-legumbres1{
-    margin-top: 240px;
+    margin-top: 320px;
     margin-left: 40px;
     width: 550px;
     animation:ease-in animat 1s;
@@ -149,7 +149,7 @@ body{
 }
 
 .imagen-frutas1{
-    margin-top: 180px;
+    margin-top: 190px;
     margin-left: 40px;
     width: 550px;
     animation:ease-in animat 1s;
@@ -187,7 +187,7 @@ body{
 .contenido-header p{
     font-weight: 100;
     margin-top: 14px;
-    color: #5d6678;
+    color: rgb(125, 148, 190);
 }
 
 
@@ -207,14 +207,14 @@ body{
 }
 
 
-input:invalid {
+.inputE:invalid {
     border: 2px dashed red;
   }
 
-  input:valid {
+  .inputE:valid {
     border: 2px solid green;
   }
 
   .form{
-    padding-top: 5450px;
+    padding-top: 5560px;
   }
