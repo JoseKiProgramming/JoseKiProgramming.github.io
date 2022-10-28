@@ -85,7 +85,7 @@ body{
 }
 
 .imagen-carne2{
-    margin-top: 350px;
+    margin-top: 67%;
     margin-left: 40px;
     width: 550px;
     animation:ease-in animat 1s;
@@ -93,7 +93,7 @@ body{
 }
 
 .imagen-carne3{
-    margin-top: 300px;
+    margin-top: 55%;
     margin-left: 40px;
     width: 550px;
     animation:ease-in animat 1s;
@@ -101,7 +101,7 @@ body{
 }
 
 .imagen-verdura1{
-    margin-top: 170px;
+    margin-top: 28%;
     margin-left: 40px;
     width: 550px;
     animation:ease-in animat 1s;
@@ -109,7 +109,7 @@ body{
 }
 
 .imagen-verdura2{
-    margin-top: 200px;
+    margin-top: 37%;
     margin-left: 40px;
     width: 550px;
     animation:ease-in animat 1s;
@@ -117,7 +117,7 @@ body{
 }
 
 .imagen-verdura3{
-    margin-top: 200px;
+    margin-top: 45%;
     margin-left: 40px;
     width: 550px;
     animation:ease-in animat 1s;
@@ -133,7 +133,7 @@ body{
 }
 
 .imagen-legumbres2{
-    margin-top: 130px;
+    margin-top: 12%;
     margin-left: 40px;
     width: 550px;
     animation:ease-in animat 1s;
@@ -141,7 +141,7 @@ body{
 }
 
 .imagen-legumbres3{
-    margin-top: 250px;
+    margin-top: 50%;
     margin-left: 40px;
     width: 550px;
     animation:ease-in animat 1s;
@@ -149,7 +149,7 @@ body{
 }
 
 .imagen-frutas1{
-    margin-top: 190px;
+    margin-top: 44%;
     margin-left: 40px;
     width: 550px;
     animation:ease-in animat 1s;
@@ -216,5 +216,5 @@ body{
   }
 
   .form{
-    padding-top: 5560px;
+    padding-top: 445%;
   }
